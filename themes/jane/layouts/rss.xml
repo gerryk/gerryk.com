@@ -1,5 +1,6 @@
 {{- $pages := .Data.Pages -}}
-{{- $limit := .Site.Config.Services.RSS.Limit -}}
+#{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- $limit := 20 -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
