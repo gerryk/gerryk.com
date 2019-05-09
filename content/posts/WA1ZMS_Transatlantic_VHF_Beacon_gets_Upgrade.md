@@ -1,7 +1,7 @@
 ---
 title: "WA1ZMS Transatlantic VHF Beacon gets Upgrade"
 date: 2009-07-29T10:45:00+01:00
-draft: true
+draft: false
 ---
 
 The WA1ZMS Trans-Atlantic beacon/transmitter project has had a recent upgrade to

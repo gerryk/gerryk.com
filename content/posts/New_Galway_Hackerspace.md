@@ -1,7 +1,7 @@
 ---
 title: "New Galway Hackerspace"
 date: 2010-06-26T11:42:00+01:00
-draft: true
+draft: false
 ---
 
 Galway has a new HackerSpace.

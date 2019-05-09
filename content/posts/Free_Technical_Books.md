@@ -1,7 +1,7 @@
 ---
 title: "Free Technical Books"
 date: 2009-02-05T09:20:00+01:00
-draft: true
+draft: false
 ---
 
 Ok, I know the title is probably triggering spam filters all over.

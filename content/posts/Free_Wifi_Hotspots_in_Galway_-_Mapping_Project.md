@@ -1,7 +1,7 @@
 ---
 title: "Free Wifi Hotspots in Galway - Mapping Project"
 date: 2009-01-06T09:00:00+01:00
-draft: true
+draft: false
 ---
 
 As a learning exercise I decided to use the Google Maps API to

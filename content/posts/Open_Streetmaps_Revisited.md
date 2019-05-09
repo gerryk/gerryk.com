@@ -1,7 +1,7 @@
 ---
 title: "Open Streetmaps Revisited"
 date: 2014-02-06T11:58:00+01:00
-draft: true
+draft: false
 ---
 
 Since I wrote<a href=http://gerryk.com/node/26/edit>;this blogpost</a>, some of the sites and information referenced has disappeared or become otherwise out of date. Here is an updated version:

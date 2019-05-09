@@ -1,7 +1,7 @@
 ---
 title: "APRS"
 date: 2009-09-04T10:50:00+01:00
-draft: true
+draft: false
 ---
 
 APRS is often misunderstood to mean Automatic Position Reporting System, when, according to creator Bob Bruninga, WB4APR, it actually stands for Automatic Packet Reporting System. Some might maintain that the primary purpose of APRS is vehicle tracking and service position reporting, and, while this is not entirely untrue, it does sell short the possibilities of this excellent technology.

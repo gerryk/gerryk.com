@@ -1,7 +1,7 @@
 ---
 title: "Mobile APRS with Icom IC7100 and mobilinkd"
 date: 2014-11-21T13:20:00+01:00
-draft: true
+draft: false
 ---
 
 
