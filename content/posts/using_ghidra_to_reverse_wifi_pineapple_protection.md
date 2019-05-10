@@ -24,10 +24,10 @@ I loaded up Ghidra and created a new project. I then loaded the pineapd binary a
 
 Near the top of main() I noticed a call to strcmp() with the comparison string being 'WIFI_PINEAPPLE_NANO', A couple of lines back I saw a call to a function getBrd() which returns the string being searched for the comparison string. 
 
-{{< figure src="https://i.imgur.com/xSk713J.png" title="getBrd()" >}}
+{{< figure src="https://i.imgur.com/xSk713J.png" title="getbrd() function" >}}
 
 Looking at this function shows that it is looking at /proc/cmdline to determine part of the board id. /proc/cmdline is the kernel boot parameter list, and sure enough, one of the parameters is 'AR-150' where I guess the code would prefer to find 'WIFI_PINEAPPLE_NANO'
 
 Looking back at main() there is another function call to getid() which when we examine it shows a shell-out to examine the first few lines of dmesg to look for an alphanumeric string. The significance of the string is unknown... perhaps a build id, but it seems that unless the expected strings are found in the expected places, the SegFault will be generated and the binary fail to execute.
 
-{{< figure src="https://i.imgur.com/IyUbwbc.png" title="output od /prod/cmdline & dmesg" >}}
+{{< figure src="https://i.imgur.com/IyUbwbc.png" title="Output of /prod/cmdline & dmesg" >}}
