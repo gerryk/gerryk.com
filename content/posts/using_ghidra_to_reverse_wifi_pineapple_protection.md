@@ -20,15 +20,15 @@ This in turn contains calls to /etc/init.d/pineapd. This is a standard SysV init
 
 In the not too distant past, the US National Security Agency released their Software Reverse Engineering suite, Ghidra, to the world. Ghidra has the capability of disassembling and decompiling binaries for CPU architectures other than Intel's x86 and x86_64, including the MIPS family, of which the CPU in thw AR-150 and Wifi Pineapple is a member. Worth a shot, right?
 
-I loaded up Ghidra and created a new project. I then loaded the pineapd binary and opened the disassembler window, selected the binary and let Ghidra do its analysis. It correctly identified the binary as being an elf binary for the MIPS CPU Architecture, and sure enough displayed the assembly code in the main window. I scrolled down looking for an entry poiny and after a bit found what seemed to be a function definition for main(). After a few more seconds, the decompilation window was populated with C code generatd by the decompiler. I guess there must be some debug symbols included in the binary since some of the variables and function names were meaningful rather than __function__001() and so forth, as often seen in decompiled code.
+I loaded up Ghidra and created a new project. I then loaded the pineapd binary and opened the disassembler window, selected the binary and let Ghidra do its analysis. It correctly identified the binary as being an elf binary for the MIPS CPU Architecture, and sure enough displayed the assembly code in the main window. I scrolled down looking for an entry poiny and after a bit found what seemed to be a function definition for main(). After a few more seconds, the decompilation window was populated with C code generatd by the decompiler. I guess there must be some debug symbols included in the binary since some of the variables and function names were meaningful rather than _function_001() and so forth, as often seen in decompiled code.
 
-Near the top of main() I noticed a call to strcmp() with the comparison string being 'WIFI_PINEAPPLE_NANO', A couple of lines back I saw a call to a function getbrd() which returns the string being searched for the comparison string. 
+Near the top of main() I noticed a call to strcmp() with the comparison string being 'PINEAPPLE_NANO', A couple of lines back I saw a call to a function getbrd() which returns the string being searched for the comparison string. 
 
 {{< figure src="https://i.imgur.com/RqdPyX5.png" title="main() function" >}}
 
 {{< figure src="https://i.imgur.com/xSk713J.png" title="getbrd() function" >}}
 
-Looking at this function shows that it is looking at /proc/cmdline to determine part of the board id. /proc/cmdline is the kernel boot parameter list, and sure enough, one of the parameters is 'AR-150' where I guess the code would prefer to find 'WIFI_PINEAPPLE_NANO'
+Looking at this function shows that it is looking at /proc/cmdline to determine part of the board id. /proc/cmdline is the kernel boot parameter list, and sure enough, one of the parameters is 'AR-150' where I guess the code would prefer to find 'PINEAPPLE_NANO'
 
 Looking back at main() there is another function call to gtmgc() which when we examine it shows a shell-out to examine the first few lines of dmesg to look for an alphanumeric string. The significance of the string is unknown... perhaps a build id, but it seems that unless the expected strings are found in the expected places, the SegFault will be generated and the binary fail to execute.
 
