@@ -1,7 +1,7 @@
 ---
 title: "Open Streetmaps"
 date: 2011-03-23T11:46:00+01:00
-draft: true
+draft: false
 ---
 
 Open StreetMaps is a worldwide collaborative effort to create a high quality, unencumbered street-level map of the world. When I first came across it, a few years ago, Co. Galway was almost unpopulated (with mapping), and Galway city extended as far as Moneenageesha.

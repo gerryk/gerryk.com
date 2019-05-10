@@ -1,7 +1,7 @@
 ---
 title: "First Moon Picture"
 date: 2009-01-11T09:51:00+01:00
-draft: true
+draft: false
 ---
 
 This Christmas, my wonderful GF got me something I have wanted since I was a small boy, a telescope. A;<a href=http://www.opticalvision.co.uk/documents/64.pdf target=_blank>damn fine one</a>;too.

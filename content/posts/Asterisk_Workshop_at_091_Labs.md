@@ -1,7 +1,7 @@
 ---
 title: "Asterisk Workshop at 091 Labs"
 date: 2010-08-07T11:44:00+01:00
-draft: true
+draft: false
 ---
 
 I will be conducting an Asterisk workshop on Thursday evening, August 19, 2010 as a part of Irish HackerSpaces week.;The workshop will cover installation of Asterisk (as Trixbox), connection to a SIP trunk provider, connection to an IAX peer, set up of SIP clients and configuration of some of the many features Asterisk offers.
