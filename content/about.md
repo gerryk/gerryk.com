@@ -10,7 +10,7 @@ comment: false
 mathjax: false
 ---
 
-My personal site wherein I write about things thet interest me, including:
+My personal site wherein I write about things that interest me, including:
 
 * Infosec
 * Ham Radio
