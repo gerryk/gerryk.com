@@ -31,3 +31,5 @@ Looking at this function shows that it is looking at /proc/cmdline to determine 
 Looking back at main() there is another function call to getid() which when we examine it shows a shell-out to examine the first few lines of dmesg to look for an alphanumeric string. The significance of the string is unknown... perhaps a build id, but it seems that unless the expected strings are found in the expected places, the SegFault will be generated and the binary fail to execute.
 
 {{< figure src="https://i.imgur.com/IyUbwbc.png" title="Output of /prod/cmdline & dmesg" >}}
+
+The next step is to try at arrive at some sustainable workaround. Patching the binary in-place might work, but it would be easy to circumvent this and the test may exist in other code also so each would need to be analysed and patched individually. Another possible alterative might be to patch OpenWRT to ensure that the Kernel returns the expected values when interrogated. I think this is the approach worth pursueing. 
