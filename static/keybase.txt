@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/gerryk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gerryk.com
+  * I am gerryk (https://keybase.io/gerryk) on keybase.
+  * I have a public key ASA3ituCg0Gy85nIVTbcDgJHdBGHQfoHAYb9u_JwXq8Y8Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010139151a7265b2267a95b73fae998444e226500db22e87f63bc5a340eec86ead0a",
+            "host": "keybase.io",
+            "kid": "0120378adb828341b2f399c85536dc0e024774118741fa070186fdbbf2705eaf18f00a",
+            "uid": "c945eae73edc80a459b7cb3a1943f019",
+            "username": "gerryk"
+        },
+        "service": {
+            "hostname": "gerryk.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491982961,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491982928,
+        "hash": "a7c3ad09a7a5399ae26b3ef2a499209d8c839274906cee2af4c4473354efe6957e3793576e546029b58ce448252e170df3ba77848f76934d7606cbad56b31a83",
+        "seqno": 1014351
+    },
+    "prev": "cceb15cd9268351f3bde1c2e53cf5e36cf63e3057443e6c49b859705a8996539",
+    "seqno": 22,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgN4rbgoNBsvOZyFU23A4CR3QRh0H6BwGG/bvycF6vGPAKp3BheWxvYWTFAvJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDEzOTE1MWE3MjY1YjIyNjdhOTViNzNmYWU5OTg0NDRlMjI2NTAwZGIyMmU4N2Y2M2JjNWEzNDBlZWM4NmVhZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzc4YWRiODI4MzQxYjJmMzk5Yzg1NTM2ZGMwZTAyNDc3NDExODc0MWZhMDcwMTg2ZmRiYmYyNzA1ZWFmMThmMDBhIiwidWlkIjoiYzk0NWVhZTczZWRjODBhNDU5YjdjYjNhMTk0M2YwMTkiLCJ1c2VybmFtZSI6ImdlcnJ5ayJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZ2VycnlrLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDkxOTgyOTYxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTE5ODI5MjgsImhhc2giOiJhN2MzYWQwOWE3YTUzOTlhZTI2YjNlZjJhNDk5MjA5ZDhjODM5Mjc0OTA2Y2VlMmFmNGM0NDczMzU0ZWZlNjk1N2UzNzkzNTc2ZTU0NjAyOWI1OGNlNDQ4MjUyZTE3MGRmM2JhNzc4NDhmNzY5MzRkNzYwNmNiYWQ1NmIzMWE4MyIsInNlcW5vIjoxMDE0MzUxfSwicHJldiI6ImNjZWIxNWNkOTI2ODM1MWYzYmRlMWMyZTUzY2Y1ZTM2Y2Y2M2UzMDU3NDQzZTZjNDliODU5NzA1YTg5OTY1MzkiLCJzZXFubyI6MjIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RARYw+YA0MYddknsehmLyresr+distWFnveTDa2M+ywm8Cj4XPecEmW+vDu4I8x8xB/gWHEXSeoWQTLzCMl0ERCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJxQEZ6CUDIwNZI/+a0Z9fsk2pPuzzAYnzkM+s2rkVeWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gerryk
+
+==================================================================
