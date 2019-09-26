@@ -25,6 +25,10 @@ paginate = 10
   name = "About"
   url = "https://gerryk.com/about/"
 
+[[menu.navbar]]
+  name = "Secure"
+  url = "https://gerryk.com/secure/"
+
 
 # Theme variables
 #
