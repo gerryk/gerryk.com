@@ -28,13 +28,13 @@ Before you can key a rig with this program, you need to build a small keying cir
 This is the circuit...
 
 
-<img src=https://dl.dropboxusercontent.com/u/32770/2016-08-09%2015.04.42.jpg />
+<img src=https://www.dropbox.com/s/0eb8x5ddcsrasng/2016-08-09%2015.04.42.jpg?raw=1 />
 
 
 Most rigs use a stereo jack as the key input with the tip and shield as key and ground. The pins on the Raspberry Pi are GPIO 11 and GND. The pinout for the Pi 2 is as follows (yours may differ depending on version):
 
 
-<img src=https://dl.dropboxusercontent.com/u/32770/gpio-numbers-pi2.png />
+<img src=https://www.dropbox.com/s/c6df49vxsv158ng/gpio-numbers-pi2.png?raw=1 />
 
 
 Once the keying cirsuit is build and connected, the rig should be set to CW mode, but VOX (or however your rig actually transmits on keyng) disabled to test. The following command line will test the keyer:
