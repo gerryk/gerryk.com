@@ -6,7 +6,7 @@ draft: false
 
 I have had a CurrentCost Power sampling device on my house electrical supply for a few years, since I got it free switching providers. It came with a panel that allows you to view the momentary values for power consumption, but in these days of data aggregation and IoT, this is as close to useless as it gets. I already have a [HomeAssistant](https://www.home-assistant.io) server runniing on a Docker Host I use for such things, and I have a few other IoT-friendly devices lying around, so I thought I would try to integrate these to gather and display historical power consumption for my home.
 
-##Data collection with rtl_433
+## Data collection with rtl_433
 
 I have a few [RTLSDR](https://www.rtl-sdr.com) devices, and the CurrentCost unit transmits metrics on 433MHz ISM, so teh first step is to configure a device that will gather this data over RF. Since I plan to use this as a sort of RF gathering hub, I will use a spare Pi3b and one of the RTLSDR devices.
 
@@ -20,7 +20,7 @@ Once this was done, I installed _rtl-sdr_ and *rtl_433*, as follows:
      $ cd rtl_433/ && mkdir build && cd build && cmake ../ && make
      $ sudo make install
 
-##Containerised MQTT
+## Containerised MQTT
 Once I had a working install of *rtl_433*, the next step was to setup an [MQTT](http://mqtt.org) broker to pass messages between the client (rtl_433) and *HomeAssistant*. *HomeAssitant* does have an MQTT broker module, but the Docker install does not include the Supervisor and Add-Ons functionality, so deploying a Containerised solution is more in keeping with the modular ideology that is in vogue today. The Docker host I use for this stuff uses [Docker Compose](https://docs.docker.com/compose/) to manage the deployment and configuration of Docker images, so I added the following to docker-compose.yml:
 
     # Mosquitto - MQTT Broker
@@ -44,7 +44,7 @@ Once I had a working install of *rtl_433*, the next step was to setup an [MQTT](
 I then brought the container up with `docker-compose up -d` and my MQTT broker was active.
 The next step was to configure *HomeAssitant* to listen to the MQTT broker for messages. This is done by entering the Configuration section, and selecting Integrations and clicking the orange + to add an integration. Find MQTT, and enable. Then enter the details for the MQTT broker and it's all done. Well almost...
 
-##Configuring HomeAssistant
+## Configuring HomeAssistant
 The nest step is to configure *HomeAssistant* to listen for a Topic and to make data from this topic avaialble as a variable for use in the UI. The following snippet should be added to `configuration.yml`:
 
     sensor:
@@ -56,7 +56,7 @@ The nest step is to configure *HomeAssistant* to listen for a Topic and to make 
 
 This listens for anything posted on the Topic `CurrentCost/Power/power0_W`, and assigns it the variable name *CurrentCost\_Power*. It also assigns a device class of 'power' so that HomeAssistant will know what icons to use for the variable. Where does this Topic come from? The configuration of *rtl\_433* comes next.
 
-##Configuring rtl_433 to post Topics
+## Configuring rtl_433 to post Topics
 *rtl\_433* can output data it reads in many formats. The default is as a formatted table to stdout, i.e. the screen. However, for our purposes, the pretty-formatting is superfluous. It can also do JSON, CSV and other machine-readable formats, and, of most interest to us, it can connect directly to an MQTT broker and post Topics. To do this, we create a configuration file for *rtl\_433*. If a file is created in one of a few specific locations, *rtl\_433* will automatically load it and use it to configure itself. In this instance, we will create the file at `/etc/rtl_433/rtl_433.cfg`
 
     frequency     433.92M
