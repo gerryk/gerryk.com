@@ -21,22 +21,22 @@ The baluns that came out on top were expensive, and generally unavailable locall
 
 I started by winding two toroids bifilar. I used 14swg enamelled copper wire for the windings.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/balun1.jpg />
+<img src=https://gerryk.sdf.org/site_images/balun1.jpg />
 
 I tested these, and found that they exhibited a lower characteristic impedance than was required. I needed ~100ohm, and these were about 60ohms. So, I tried again, but with a wider spacing between the wires. This spacing could be provided by using insulated wire, so using 1.5mm2 domestic wiring, I rewound…
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/balun2.jpg />
+<img src=https://gerryk.sdf.org/site_images/balun2.jpg />
 
 This time, the impedance matched what it should, being slightly short of 100ohms.
 The next stage was to connect the two 1:1 baluns back to back, giving a 4:1 balun, with an input impedance of ~200ohms and an output impedance of the familiar 50ohms.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/balun3.jpg />
+<img src=https://gerryk.sdf.org/site_images/balun3.jpg />
 
 Four 50ohm resistors in series at one end, and the MFJ 259b Antenna Analyser on the other gives preliminary SWR of 1.1:1 across almost all of the HF band, rising slightly to 1.3:1 at the lower bounds of 1.5MHz. An encouraging start.
 
 Mounting the entire assembly in a waterproof (IP40) case was a relatively straightforward operation. I drilled mounting holes for galvanised eyes, and a further one for the antenna socket (SO239). I also drilled two holes for pigtails to allow the antenna legs to connect to the balun.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/balun4.jpg />
+<img src=https://gerryk.sdf.org/site_images/balun4.jpg />
 
 Once this was all done, I attached two legs, cut from hard-drawn copper, and cut roughly to a 2:1 ratio, as per standard OCF dipole design, and proceeded to fine-tune the lengths. After a bit of pruning, I got an acceptable SWR on 80m, 40m, 20m, 15m add 10m, with a surprisingly low 2.1:1 on 6m also. The maximum SWR was 2.3:1 on 20m, but I figured that the internal ATU in the IC756 ProIII would tweak that out.
 
@@ -48,7 +48,7 @@ Not quite back to the drawing-board, but certainly some of the failings of the a
 
 I also replaced the terminators with heaver-duty units purchased from the hardware shop, giving a more flexible, but much sturdier connection to the balun eyes from the antenna legs.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/balun5.jpg />
+<img src=https://gerryk.sdf.org/site_images/balun5.jpg />
 
 I re-hoisted and retuned the antenna, with the help of Steve, EI5DD, who devoted a Saturday to the effort, and by afternoon, we had the antenna up and tuned. This time, we took even more time in the pruning operation, and as such, achieved &lt;2:1 SWR on almost all bands.
 

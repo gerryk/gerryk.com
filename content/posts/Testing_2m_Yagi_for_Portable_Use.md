@@ -8,7 +8,7 @@ I have a number of fibreglass poles of various lengths, but decided to try the l
 
 Once this was done, I extended the pole, mounted the antenna and cable-tied the co-ax to the pole. I have a drive-on plate with a 5' aluminium pole clamped to it to act as a base. I walked the fibreglass pole with mounted yagi up to it's full height and strapped it to the aluminum pole once vertical.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/DSCF4744.JPG />
+<img src=https://gerryk.sdf.org/site_images/DSCF4744.JPG />
 
 I then hooked up the FT817 and tunes around the lower end of 2m. EI3IX had been on a hilltop earlier, but unfortunately had wrapped up by this stage.;The antenna was pointed roughly due north, and while tuning around 144.485, I heard what sounded like a beacon. I listened for a few moments, and heard what sounded like a JT65 transmission followed by a CW ID. The ID was;<a href=http://www.qsl.net/gb3wgi/>GB3WGI</a>, so I did a quick Google to see what it was. GB3WGI is a transatlantic propogation 'early warning' beacon to;provide an early warning of 144MHz transatlantic propagation on the Europe to USA path as a complement to the existing beacon network in the USA.;It can also serve as a useful frequency reference due to the accuracy of the 10 MHZ GPS Disciplined Oscillator;The beacon is located 339 metres above sea level atop Lough Navar Mountain in County Fermanagh, Northern Ireland - Maidenhead Grid Locator IO64BL.
 

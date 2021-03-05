@@ -14,7 +14,7 @@ draft: false
 \n
 \nOnce I received the TNC, I charged it (it has a built in battery... so handy for /P operation), and made up a cable to connect it to the ICOM rig. The cable looks like this:
 \n
-\n<img alt= src=https://dl.dropboxusercontent.com/u/32770/IC7100-Mobilinkd.png />
+\n<img src=https://gerryk.sdf.org/site_images/IC7100-Mobilinkd.png />
 \n
 \n
 \nThe behaviour of the IC7100 means that when some device is connected to the DATA2 port, it will only respect the PTT line if the radio is set to DigitalFM (FM-D) mode, so there will be no rude data-bursts over your voice QSO. I haven't tested to see how quickly the IC7100 stops scanning, so I don't know if an incoming packet will be truncated or not. For the moment, I leave it on 144.800 (the Irish APRS frequency) when driving unless I want to talk to someone.

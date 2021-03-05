@@ -7,7 +7,7 @@ I came across am interesting project at the;<a href=http://ei7mre.org/>Mayo Radi
 A Wobbulator would, in the past, have cost hundreds of euros, so to see;<a href=http://asliceofraspberrypi.blogspot.co.uk/2013/12/building-raspberry-pi-wobbulator-kit.html>the full kit</a>;available for a Rally special price of €40 was all the excuse I needed to get one. I already have a few Raspberry Pis and had a DDS on the way from eBay, so no further expenditure would be needed. The kit included a well manufactured board and all the various parts, including some header strips to connect to the GPIO array on the Pi and some high quality SMA ports for the RF in and outputs.;
 
 The assembly started out with soldering some SMD devices... a few capacitors, diodes and resistors and two 1mm pitch DIL chips. I used a .5mm tip on my iron and .3mm silver bearing solder to mount these. I tinned the pads on the board first, then using a fine tweezers, held each device while I flowed to one side, and then other. The chips were a little more tricky, keeping all of the legs aligned while tacking one corner and then the other. The rest of the components are through-holeand a relatively trivial install. A set of headers are installed to take the DDS, and a double header on the other side to connect to the Pi.
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2014-12-04%2021.10.21.jpg />
+<img src=https://gerryk.sdf.org/site_images/2014-12-04%2021.10.21.jpg />
 
 Once assembled, I started with a basic install of Rasbian on an SD card. A few tweaks need to be done to enable the functionality of the Wobbulator, and install the Wobbulator control software.
 
@@ -70,7 +70,7 @@ Once LXDE has started, open a Terminal window and enter the following:
 $ python3 rpi_voltmeter.py</span>
 
 A small window will display.
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/RPiVM.png />
+<img src=https://gerryk.sdf.org/site_images/RPiVM.png />
 
 Leave Channel on channel 1, and click the Measure button. This will likely display a voltage up around 2v. This is around the maximum voltage the RF voltmeter can sample, so we need to reduce this greatly, since there is currently no input. On the board, there are two variable resistors (little blue boxes) with a little brass adjustment screw on each. Start to turn the one in the channel 1 section on the board anti-clockwise, clicking Measure periodically, until you get a voltage around 0.1v.
 
@@ -83,5 +83,5 @@ $ python3 rpi_wobbulator.py</span>
 
 Once this was done, I ran a quick test of a filter I had built a year or so ago. The results, while not what I wanted, were excellent. The trace showed the filter to be out by about 1MHz, so there are a couple of toroids to be rewound. I will use the<a href=http://www.eham.net/reviews/detail/13>MFJ 259b</a>;with a 'custom' connector as an L/C meter to verify the toroids. I will document this process in another post.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/wobbulator-1.png />
+<img src=https://gerryk.sdf.org/site_images/wobbulator-1.png />
 

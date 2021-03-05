@@ -4,7 +4,7 @@ date: 2013-05-27T11:49:00+01:00
 draft: true
 ---
 
-<a href=http://railsgirls.com/>Rails Girls</a>;is an international initiative geared at encouraging more women to get involved in technology, and;<img alt= src=http://readidea.com/magazines/issue6/articles/ad-railsgirls/img/railsgirls-sq.png />more specifically, software engineering and CS. It does this by teaching Webapp development through the medium of;<a href=http://rubyonrails.org/>Ruby on Rails</a>.
+<a href=http://railsgirls.com/>Rails Girls</a>;is an international initiative geared at encouraging more women to get involved in technology, and;<img src=http://readidea.com/magazines/issue6/articles/ad-railsgirls/img/railsgirls-sq.png />more specifically, software engineering and CS. It does this by teaching Webapp development through the medium of;<a href=http://rubyonrails.org/>Ruby on Rails</a>.
 \n
 \nI am a member at;<a href=http://091labs.com/>091 Labs, Galway's very own Hacker|Maker space</a>. I don't get the chance to actively participate in much these days, but still monitor the mailing lists. When I came across Myriam Leggieri's post to the list looking for mentors for an event she was putting together, I was immediately interested. When I saw it was using RoR, I was in. I am a big fan of the Ruby language... I enjoy its purity and consistency. I also really like Rails and how fun it is, while being capable of 'big' stuff too.
 \n

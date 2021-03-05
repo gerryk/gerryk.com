@@ -13,22 +13,22 @@ So, I started investigating... update drivers, check, update BIOS, check... all 
 The procedure described the removal or otherwise ungrounding of pin3, which is the SATA Diagnostic pin.;
 So, screwdriver out... I removed the caddy, and started disassembling it. It wasn't a huge job, slightly complicated by some hidden screws, but once they were all opened, it came apart easily and revealed the internals.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2015-09-01%2011.37.17.jpg />
+<img src=https://gerryk.sdf.org/site_images/2015-09-01%2011.37.17.jpg />
 
 <strong>The Caddy with HDD fitted</strong>
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2015-09-01%2011.43.04.jpg />
+<img src=https://gerryk.sdf.org/site_images/2015-09-01%2011.43.04.jpg />
 
 <strong>HDD Removed</strong>
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2015-09-01%2011.48.39.jpg />
+<img src=https://gerryk.sdf.org/site_images/2015-09-01%2011.48.39.jpg />
 
 <strong>Caddy with the lid off</strong>
 
 It was when I got the lid off and could see the internals that I saw the little switch (to the left of the internal SATA connector). From what I could see it was on the offending pin too, so it seems that I could disable the pin without reverting to surgery. So, I flipped it.
 Once I reassembled the caddy, I noticed that the switch was perfectly accessible without all the disassembly... oh well... I'll know better next time.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2015-09-01%2011.57.46.jpg />
+<img src=https://gerryk.sdf.org/site_images/2015-09-01%2011.57.46.jpg />
 
 <strong>Switch visible with the lid on</strong>
 

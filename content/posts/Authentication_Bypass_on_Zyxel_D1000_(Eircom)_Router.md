@@ -3,7 +3,7 @@ title: "Authentication Bypass on Zyxel D1000 (Eircom) Router"
 date: 2014-12-16T13:32:00+01:00
 draft: false 
 ---
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/eircom-zyxel.JPG />
+<img src=https://gerryk.sdf.org/site_images/eircom-zyxel.JPG />
 
 <strong>The Eircom D1000 Zyxel Router</strong>
 

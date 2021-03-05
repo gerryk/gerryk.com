@@ -17,30 +17,30 @@ I'm pleased to report that the event went very well indeed. I was, as I hoped, v
 
 Altogether a great day, made better by wonderful weather. Some visitors in the shape of EI6GUB, 6GXB, 5DD and our guest from D land, Udo DJ5UL, made things even more enjoyable.
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1046.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1046.JPG />
 
 Oranmore Castle with the antenna mast in the foreground
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1047.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1047.JPG />
 
 Udo, DJ5UL, our guest for the day
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1048.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1048.JPG />
 
 Steve, EI5DD, welcoming Udo, DJ5UL
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1054.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1054.JPG />
 
 Gerry, EI8DRB (me) working the DX
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1061.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1061.JPG />
 
 Liam, EI6GXB, working stations as Martin and Udo look on
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1075.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1075.JPG />
 
 Steve, EI5DD, gets another one in the log
 
-<img alt= src=http://gerryk.com/sites/default/files/ei001c/DSC_1068.JPG />
+<img src=http://gerryk.com/sites/default/files/ei001c/DSC_1068.JPG />
 
 The 20m Moxon reaching out for the DX

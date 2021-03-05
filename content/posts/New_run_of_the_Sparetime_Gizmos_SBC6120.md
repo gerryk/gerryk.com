@@ -17,7 +17,7 @@ Recently, there was a bit of activity on the Sparetime Gizmos Yahoo Group when A
 
 <img alt=SBC6120-RetroBrew Kit data-entity-type=file data-entity-uuid=12aac159-2eeb-4227-9565-ffd841d7cdbe src=/sites/default/files/inline-images/SBC6120-800px.jpg />
 
-The <a href=https://www.retrobrewcomputers.org/doku.php?id=boards:sbc:sbc6120-rbc-edition:start>project pages</a> include a BOM generator spreadsheet, but the vendor of choice is Mouser, who are unreasonably expensive for shipping to Ireland, so I took the time to generate an equivalent BOM for Farnell, who ship to Ireland free. The component costs are very reasonable at Farnell also, often competing with, and beating the likes of Mouser and Digikey. The Farnell BOM is almost complete, apart from an oscillator, a polyfuse and a couple of connectors. I am making it available for <a href=https://dl.dropboxusercontent.com/u/32770/SBD6120_Farnell_BOM.csv>download here</a>.
+The <a href=https://www.retrobrewcomputers.org/doku.php?id=boards:sbc:sbc6120-rbc-edition:start>project pages</a> include a BOM generator spreadsheet, but the vendor of choice is Mouser, who are unreasonably expensive for shipping to Ireland, so I took the time to generate an equivalent BOM for Farnell, who ship to Ireland free. The component costs are very reasonable at Farnell also, often competing with, and beating the likes of Mouser and Digikey. The Farnell BOM is almost complete, apart from an oscillator, a polyfuse and a couple of connectors. I am making it available for <a href=https://gerryk.sdf.org/site_images/SBD6120_Farnell_BOM.csv>download here</a>.
 
 I have ordered the BOM, and will be posting a build-log as construction progresses.
 

@@ -8,16 +8,16 @@ Having been emboldened by a successful;<a href=http://www.gerryk.com/node/45>con
 
 I came across<a href=http://theseger.com/projects/2014/09/converting-suncom-sfs-throttle-usb/>;this page</a>, where a conversion was described. However, this conversion relied on a custom PCB and a SMD PIC which had to be soldered. I have had mixed results in soldering SMD devices with small leg-pitch, so wanted to avoid this route if possible. The author did, however, provide a wiring diagram for the buttons. They are basically wired in a diode-matrix, albeit not on an actual matrix. 3 SELect lines and 8 read lines gives a maximum of 24 buttons. There are actually 18, but since the F22 has 18 already used out of a possible maximum of 32 (DirectPlay controller limitation) we have 14 to play with. Still not terrible.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/GripButtonsConnections.png />
+<img src=https://gerryk.sdf.org/site_images/GripButtonsConnections.png />
 (thanks Shai Seger for the drawing)
 
 Since the left and right throttles have their own set of buttons, I doubled up one of the SEL lines on the left with one on the right, and the 4 read lines with 4 from the right also, making sure that there were no overlaps.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2015-03-16%2013.30.36.jpg />
+<img src=https://gerryk.sdf.org/site_images/2015-03-16%2013.30.36.jpg />
 
 This gave me 11 lines to be brought over to the Teensy in the Joystick. The now unused gameport cable on the throttle has 10 lines, so I would need to use another cable. Once cabled up, I connected the read lines to pins 0 - 7 and the three SEL lines to pins 18, 19&amp;20.
 
-<img alt= src=https://dl.dropboxusercontent.com/u/32770/2015-03-16%2014.07.03.jpg />
+<img src=https://gerryk.sdf.org/site_images/2015-03-16%2014.07.03.jpg />
 
 Once all of this was soldered up, I wrote a small sketch to try to read the buttons. After a number of iterations, and a very informative email from the author of the aforementioned page, I had a working sketch... well almost. It turns out that when a line is brought HIGH or LOW, it takes a very small period of time to happen, so I had to add a very short;<em>delay()</em>;call to provide the necessary time. Incidentally, to read a column, the SEL line must be taken LOW and;<em>digitalRead()</em>;will return 0 for the activated buttons. See the sketch here...
 

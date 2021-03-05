@@ -11,7 +11,7 @@ Ok, there have been a few additions, changes, retirements and so in in the old s
 HF - Icom IC756 PROIII
 HF Receiver - Drake 2B</strong>
 
-<img alt= src=http://gerryk.com/sites/default/files/shack.JPG />
+<img src=http://gerryk.com/sites/default/files/shack.JPG />
 
 There's a little story behind each of these rigs. The ones that make me most happy these days are the Drake 2B and the PROIII.;
 The Drake came about primarily through hearing Bill Meara going on about them on his podcast Soldersmoke. I then came across an SK sale in the back of PW, got in touch with fellow GQRP member, Colin G3VTT, who was handling the sale, and with his great assistance, was the owner of a mint condition Drake 2B with matching 2BQ Q multipler.

@@ -8,4 +8,4 @@ One of the guys at;<a href=http://www.tog.ie/>tog</a>;mentioned in a recent post
 
 To see if it works, I created one, and it appears that it does. Not sure about the thresholds of size and contrast though, as this is just a proof of concept, rather than an exhaustive study.
 
-<img alt= src=http://i.imgur.com/v3Lo0.png />
+<img src=http://i.imgur.com/v3Lo0.png />
